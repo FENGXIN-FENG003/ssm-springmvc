@@ -14,6 +14,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 // @EnableWebMvc 给经理Adapter添加json转换器
 // 创建 RequestMappingHandlerMapping RequestMappingHandlerAdapter
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.fengxin.param","com.fengxin.pathdyn","com.fengxin.json"})
+@ComponentScan(basePackages = {"com.fengxin.param","com.fengxin.pathdyn","com.fengxin.json","com.fengxin.cookie","com.fengxin.header"})
 public class MvcConfig {
 }
