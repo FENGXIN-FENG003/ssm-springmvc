@@ -1,4 +1,4 @@
-package com.fengxin.param;
+package com.fengxin.pojo;
 
 import lombok.Data;
 

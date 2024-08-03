@@ -1,10 +1,8 @@
 package com.fengxin.config;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;
-import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
  * @author FENGXIN
@@ -13,14 +11,9 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
  * @description
  **/
 @Configuration
-@ComponentScan(basePackages = {"com.fengxin.param","com.fengxin.pathdyn"})
+// @EnableWebMvc 给经理Adapter添加json转换器
+// 创建 RequestMappingHandlerMapping RequestMappingHandlerAdapter
+@EnableWebMvc
+@ComponentScan(basePackages = {"com.fengxin.param","com.fengxin.pathdyn","com.fengxin.json"})
 public class MvcConfig {
-    @Bean
-    public RequestMappingHandlerMapping handlerMapping(){
-        return new RequestMappingHandlerMapping ();
-    }
-    @Bean
-    public RequestMappingHandlerAdapter handlerAdapter(){
-        return new RequestMappingHandlerAdapter ();
-    }
 }
