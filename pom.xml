@@ -10,7 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>springmvc-part01</module>
-        <module>springmvc-part02-requst</module>
+        <module>springmvc-part02-request</module>
+        <module>springmvc-part03</module>
     </modules>
 
     <dependencies>
@@ -34,6 +35,12 @@
             <artifactId>yasson</artifactId>
             <version>3.0.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.34</version>
+        </dependency>
+
     </dependencies>
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
