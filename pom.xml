@@ -11,7 +11,7 @@
     <modules>
         <module>springmvc-part01</module>
         <module>springmvc-part02-request</module>
-        <module>springmvc-part03</module>
+        <module>springmvc-part03-response</module>
     </modules>
 
     <dependencies>

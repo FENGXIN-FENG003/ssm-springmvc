@@ -21,6 +21,7 @@ public class JsonBody {
      * 1.pom.xml 加入jackson-databind依赖<br>
      * 2.handlerAdapter配置json转化器,配置类需要明确@EnableWebMvc<br>
      * 3.参数添加@RequestBody 将 JSON 数据转换为 Java 对象 需要定义一个用于接收 JSON 数据的 Java 类<br>
+     * 4.使用PostMapping请求
      */
     @ResponseBody
     @RequestMapping("person")

@@ -3,6 +3,8 @@ package com.fengxin.attr;
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,9 +18,15 @@ import java.util.Map;
  * @project ssm-springmvc-part
  * @description 共享域对象操作
  **/
+@Controller
 @RequestMapping("attr")
 @ResponseBody
 public class Attr {
+    /**
+     * ServletContext加入到了ioc 用全局变量 注入
+     */
+    @Autowired
+    ServletContext servletContext;
     /**
      * Request级别属性共享域
      * 原生
