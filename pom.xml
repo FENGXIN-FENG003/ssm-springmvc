@@ -14,6 +14,7 @@
         <module>springmvc-part03-response</module>
         <module>springmvc-part04-error</module>
         <module>springmvc-part05-interceptor</module>
+        <module>springmvc-part06-verify</module>
     </modules>
 
     <dependencies>
@@ -26,6 +27,7 @@
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-web-api</artifactId>
             <version>11.0.0-M4</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
