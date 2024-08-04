@@ -13,6 +13,7 @@
         <module>springmvc-part02-request</module>
         <module>springmvc-part03-response</module>
         <module>springmvc-part04-error</module>
+        <module>springmvc-part05-interceptor</module>
     </modules>
 
     <dependencies>
