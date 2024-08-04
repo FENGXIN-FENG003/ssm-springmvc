@@ -12,6 +12,7 @@
         <module>springmvc-part01</module>
         <module>springmvc-part02-request</module>
         <module>springmvc-part03-response</module>
+        <module>springmvc-part04-error</module>
     </modules>
 
     <dependencies>
