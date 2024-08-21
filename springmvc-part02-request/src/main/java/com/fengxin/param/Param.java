@@ -19,7 +19,7 @@ import java.util.List;
 @RequestMapping("param")
 public class Param {
     /**
-     * 默认传入的值不能为空 nane / value 为请求的参数 可以和形参一样 不一样时形参名失效
+     * 默认传入的值不能为空 name / value 为请求的参数 可以和形参一样 不一样时形参名失效
      */
     @RequestMapping("data01")
     @ResponseBody

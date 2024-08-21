@@ -22,9 +22,9 @@ import java.util.Objects;
 @RequestMapping("user")
 public class UserController {
     /**
-     * 1.给实体类属性添加注解
-     * 2.handler @Validated 实体类 对象
-     * 3.param json 注解添加后一样有效果(@RequestBody）
+     * 1.给实体类属性添加注解<br>
+     * 2.handler @Validated 实体类 对象<br>
+     * 3.param json 注解添加后一样有效果(@RequestBody）<br>
      * @param user 校验参数
      * @param bindingResult 自定义错误信息返回前端 紧跟在待校验的参数后面！
      * @return 返回信息
